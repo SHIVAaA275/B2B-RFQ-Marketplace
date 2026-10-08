@@ -15,7 +15,7 @@ ConnnectDB()
 
 app.use(express.json())
 app.use(cors({
-    origin: "http://localhost:5173",
+    origin: "https://b2b-rfq-marketplace-mern.onrender.com",
     credentials: true
 }))
 app.use(cookieParser())
